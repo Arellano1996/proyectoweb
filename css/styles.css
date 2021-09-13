@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+
+/*Sección de contacto*/
+
+
+.div-contacto{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+.div-contacto ul{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.div-contacto ul li{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-contacto ul li img{
+    width: 25px;
+    margin-right: 10px;
+    image-rendering: auto;
+}
+
+
+/*Header*/
+
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #FFCB00;
+}
