@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
     header{
 
     }
@@ -12,7 +12,7 @@
     }
 
     header nav ul .toggle a{
-        width: 40%;
+        width: 80px;
     }
 
     header nav ul .toggle a img{
