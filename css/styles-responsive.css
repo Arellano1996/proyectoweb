@@ -1,0 +1,30 @@
+@media screen and (max-width: 900px){
+    header{
+
+    }
+
+    header nav ul li{
+        display: none;
+    }
+
+    header nav ul .toggle{
+        justify-content: right;
+    }
+
+    header nav ul .toggle a{
+        width: 30%;
+    }
+
+    header nav ul .toggle a img{
+        width: 30px;
+    }
+
+    .toggle{
+        display: flex;
+    }
+
+    .toggle a:hover{
+        box-shadow: none;
+        background-color: #ffffff8c;
+    }
+}

@@ -101,3 +101,7 @@ header nav ul section img{
     height: 70px;
     image-rendering: auto;
 }
+
+.toggle{
+    display: none;
+}
