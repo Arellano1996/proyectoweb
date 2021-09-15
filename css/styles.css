@@ -26,6 +26,12 @@
     justify-content: center;
 }
 
+.div-contacto ul li img{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* Header */
 header{
     display: flex;
@@ -40,7 +46,7 @@ header{
     height: 70px;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: #ffffff;
 }
 
 .div-logo a img{
@@ -55,7 +61,6 @@ header ul{
     padding: 0px;
     margin: 0px;
     list-style: none;
-    background-color: bisque;
 }
 
 header ul li{
@@ -64,10 +69,20 @@ header ul li{
     height: 70px;
     align-items: center;
     justify-content: center;
-    background-color: chartreuse;
+}
+
+header ul li a{
+    display: flex;
+    width: 90%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Body */
+
 body {
     margin: 0px;
 }
