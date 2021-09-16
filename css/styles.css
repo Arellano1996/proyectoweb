@@ -87,15 +87,12 @@ header ul li a{
 /*Banner*/
 #cabecera{
     text-align: left;
-    
     color: white;
     padding: 25px;
     padding-left: 35px;
-    /*Separación del banner*/
     margin-top: 120px;
-
     background-image: url("../img/banner.png");
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-attachment:local;
     
