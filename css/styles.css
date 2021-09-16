@@ -3,7 +3,7 @@
 
 .div-contacto{
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: #E5E5E5;
     position: fixed;
     top: 0px;
@@ -12,18 +12,19 @@
 .div-contacto ul{
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 50px;
     padding: 0px;
     margin: 0px;
     align-items: center;
     justify-content: center;
     list-style: none;
+    font-size: 10pt;
 }
 
 .div-contacto ul li{
     display: flex;
     width: 20%;
-    height: 40px;
+    height: 50px;
     align-items: center;
     justify-content: center;
 }
@@ -41,8 +42,7 @@ header{
     height: 70px;
     position: fixed;
     justify-content: center;
-    background-color: #FFCB00;
-    font-size: 14pt;
+    background-color: #ffffff;
 }
 
 .div-logo{
@@ -85,27 +85,36 @@ header ul li a{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 header ul li a:hover{
-    color: #000000;
+    color: #FFCB00;
     transition: ease-in 200ms;
 }
 
 /*Banner*/
 #cabecera{
-    height: 300px;
-    text-align: left;
-    color: white;
-    padding: 25px;
-    padding-left: 35px;
-    margin-top: 20px;
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
     background-image: url("../img/banner.png");
     background-position: center;
     background-size: cover;
     background-attachment:local;
 }
+
+#cabecera div{
+    width: 90%;
+    height: 170px;
+}
+
+#cabecera div h1, h3{
+    color: #ffffff;
+}
+
 #cabecera .yellowtitle{
     color:#FFCB00;
 }
@@ -115,6 +124,7 @@ header ul li a:hover{
 
 body {
     margin: 0px;
+    background-color: #f8f8f8f8;
 }
 
 /* Main */
@@ -122,7 +132,7 @@ body {
 main{
     display: flex;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 50px;
     justify-content: center;
 }
 
@@ -144,6 +154,7 @@ main{
     width: 900px;
     height: 500px;
     margin: 20px;
+    background-color: #ffffff;
 }
 
 .div-nosotros-img{
