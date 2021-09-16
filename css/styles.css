@@ -46,7 +46,7 @@ header{
     width: 100%;
     height: 70px;
     /*Separación del miniHeader*/
-    margin-top: 30px;
+    margin-top: 25px;
     position: fixed;
     background-color: #FFCB00;
 }
