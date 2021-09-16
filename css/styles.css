@@ -106,18 +106,20 @@ header ul li a:hover{
     background-attachment:local;
 }
 
-#cabecera div{
-    width: 90%;
-    height: 170px;
+#cabecera ul{
+    width: 80%;
+    padding: 0px;
+    list-style: none;
 }
 
-#cabecera div h1, h3{
+#cabecera ul li .yellowtitle{
+    color: #FFCB00;
+}
+
+#cabecera ul li h1, h3{
     color: #ffffff;
 }
 
-#cabecera .yellowtitle{
-    color:#FFCB00;
-}
 
 
 /* Body */
