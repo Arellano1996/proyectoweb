@@ -45,7 +45,8 @@ body{
 header{
     width: 100%;
     height: 70px;
-    margin-top: 70px;
+    /*Separación del miniHeader*/
+    margin-top: 30px;
     position: fixed;
     background-color: #FFCB00;
 }
@@ -100,4 +101,26 @@ header nav ul section{
 header nav ul section img{
     height: 70px;
     image-rendering: auto;
+}
+
+/*Banner*/
+#cabecera{
+    text-align: left;
+    
+    color: white;
+    padding: 25px;
+    padding-left: 35px;
+    /*Separación del banner*/
+    margin-top: 120px;
+
+    background-image: url(/img/banner.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment:local;
+    
+}
+#cabecera .yellowtitle{
+    color:#FFCB00;
+    
+    
 }
