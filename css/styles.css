@@ -90,8 +90,6 @@ header ul li a{
 
 header ul li a:hover{
     color: #FFCB00;
-    border-bottom: 5px solid #FFCB00;
-    box-sizing: border-box;
     transition: ease 50ms;
 }
 
@@ -105,7 +103,7 @@ header ul li a:hover{
     background-image: url("../img/banner.png");
     background-position: center;
     background-size: cover;
-    background-attachment:local;
+    background-attachment: fixed;
 }
 
 #cabecera ul{
@@ -170,20 +168,26 @@ main{
 }
 
 .div-nosotros-txt{
+    display: flex;
     width: 600px;
     height: 500px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
-.div-nosotros-txt h1{
-    padding: 20px;
+.div-nosotros-txt ul{
+    padding: 0px;
+    list-style: none;
 }
 
-.div-nosotros-txt p{
-    padding: 20px;
+.div-nosotros-txt ul{
+    margin: 20px;
+}
+
+.div-nosotros-txt ul li p{
     text-align: justify;
 }
-
 
 /* Seccion Materias */
 
@@ -202,6 +206,7 @@ main{
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .section-materias .div-materias ul{
