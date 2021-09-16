@@ -235,3 +235,49 @@ main{
 .section-materias .div-materias ul li p{
     color: #ffffff;
 }
+
+/* Tab Interactiva */
+
+.section-tab{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
+.div-tab{
+    width: 900px;
+    height: 300px;
+    background-color: bisque;
+}
+
+.div-tab-button{
+    background-color: blue;
+}
+
+.div-tab-button button{
+
+}
+
+.div-tab-contenido{
+    display: flex;
+}
+
+.div-tab-img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tab-txt{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
