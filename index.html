@@ -81,20 +81,42 @@
             <section class="section-tab">
                 <div class="div-tab">
                     <div class="div-tab-button">
-                        <button onclick="">Materia</button>
-                        <button onclick="">Materia</button>
-                        <button onclick="">Materia</button>
-                        <button onclick="">Materia</button>
-                        <button onclick="">Materia</button>
-                        <button onclick="">Materia</button>
+                        <button class="button-tab" id="defaultOpen" onclick="mostrarMateria(event, 'Ciencias')">Materia 1</button>
+                        <button class="button-tab"onclick="mostrarMateria(event, 'Filosofia')">Materia 2</button>
+                        <button class="button-tab"onclick="mostrarMateria(event, 'Medicina')">Materia 3</button>
+                        <button class="button-tab"onclick="mostrarMateria(event, 'Literatura')">Materia 4</button>
+                        <button class="button-tab"onclick="mostrarMateria(event, 'Cine')">Materia 5</button>
+                        <button class="button-tab"onclick="mostrarMateria(event, 'Musica')">Materia 6</button>
                     </div>
     
-                    <div class="div-tab-contenido">
-                        <div class="div-tab-img">Imagen</div>
-                        <div class="div-tab-txt">Texto</div>
+                    <div class="div-tab-contenido" id="Ciencias">
+                        <div class="div-tab-img">Imagen 1</div>
+                        <div class="div-tab-txt">Texto 1</div>
+                    </div>
+                    <div class="div-tab-contenido" id="Filosofia">
+                        <div class="div-tab-img">Imagen 2</div>
+                        <div class="div-tab-txt">Texto 2</div>
+                    </div>
+                    <div class="div-tab-contenido" id="Medicina">
+                        <div class="div-tab-img">Imagen 3</div>
+                        <div class="div-tab-txt">Texto 3</div>
+                    </div>
+                    <div class="div-tab-contenido" id="Literatura">
+                        <div class="div-tab-img">Imagen 4</div>
+                        <div class="div-tab-txt">Texto 4</div>
+                    </div>
+                    <div class="div-tab-contenido" id="Cine">
+                        <div class="div-tab-img">Imagen 5</div>
+                        <div class="div-tab-txt">Texto 5</div>
+                    </div>
+                    <div class="div-tab-contenido" id="Musica">
+                        <div class="div-tab-img">Imagen 6</div>
+                        <div class="div-tab-txt">Texto 6</div>
                     </div>
                 </div>
             </section>
+
+            <script src="js/tabScript.js"></script>
 
             <!-- Fin de Tab interactiva-->
 
