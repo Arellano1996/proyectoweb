@@ -86,6 +86,7 @@ header ul li a{
 }
 /*Banner*/
 #cabecera{
+    height: 250px;
     text-align: left;
     color: white;
     padding: 25px;
@@ -176,7 +177,7 @@ main{
     height: 350px;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/fotografo.jpg");
+    background-image: url("../img/banner2.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -196,6 +197,8 @@ main{
 .section-materias .div-materias ul li{
     width: 20%;
     height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
 }
 
