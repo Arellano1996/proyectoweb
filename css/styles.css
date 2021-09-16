@@ -89,8 +89,9 @@ header ul li a{
 }
 
 header ul li a:hover{
+    border-bottom: solid #FFCB00 2px;
+    box-sizing: border-box;
     color: #FFCB00;
-    box-shadow: 0px -5px 0px  inset;
     transition: ease 50ms;
 }
 
