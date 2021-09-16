@@ -100,10 +100,10 @@ header ul li a:hover{
     align-items: center;
     justify-content: center;
     padding: 0px;
-    background-image: url("../img/banner.png");
+    background-image: url("../img/banner-1.jpg");
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 #cabecera ul{
@@ -202,8 +202,8 @@ main{
     height: 350px;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/banner2.jpg");
-    background-position: top;
+    background-image: url("../img/banner-2.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
