@@ -114,10 +114,20 @@ header ul li a:hover{
 
 #cabecera ul li .yellowtitle{
     color: #FFCB00;
+    font-size: 2em;
+    margin: 0;
 }
 
-#cabecera ul li h1, h3{
+#cabecera ul li h1{
     color: #ffffff;
+    font-size: 3em;
+    margin: 0;
+}
+
+#cabecera ul li h3{
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0;
 }
 
 
@@ -202,11 +212,11 @@ main{
     height: 350px;
     align-items: center;
     justify-content: center;
-    background-image: url("../img/banner-2.jpg");
+    background-image: url("../img/banner2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .section-materias .div-materias ul{
