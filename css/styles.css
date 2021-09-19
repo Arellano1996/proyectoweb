@@ -3,7 +3,7 @@
 
 .div-contacto{
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: #E5E5E5;
     position: fixed;
     top: 0px;
@@ -13,25 +13,24 @@
 .div-contacto ul{
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 40px;
     padding: 0px;
     margin: 0px;
     align-items: center;
     justify-content: center;
     list-style: none;
-    font-size: 10pt;
 }
 
 .div-contacto ul li{
     display: flex;
     width: 20%;
-    height: 50px;
+    height: 40px;
     align-items: center;
     justify-content: center;
 }
 
 .div-contacto ul li img{
-    height: 20px;
+    height: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -146,7 +145,7 @@ body {
 main{
     display: flex;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     justify-content: center;
 }
 
@@ -166,20 +165,20 @@ main{
 
 .div-nosotros{
     display: flex;
-    width: 900px;
+    width: 1000px;
     height: 500px;
     background-color: #ffffff;
     overflow: hidden;
 }
 
 .div-nosotros-img{
-    width: 300px;
+    width: 400px;
     height: 500px;   
     overflow: hidden;
 }
 
 .div-nosotros-img div{
-    width: 300px;
+    width: 400px;
     height: 500px;  
     background-image: url("../img/fotografo.jpg");
     background-position: center;
@@ -237,7 +236,7 @@ main{
 .section-materias .div-materias ul{
     display: flex;
     width: 100%;
-    height: 130px;
+    height: 150px;
     margin: 0px;
     padding: 0px;
     align-items: center;
@@ -254,11 +253,12 @@ main{
 }
 
 .section-materias .div-materias ul li h2{
+    margin: 0px;
+    padding: 0px;
     color: #FFCB00;
 }
 
 .section-materias .div-materias ul li p{
-    text-align: justify;
     color: #ffffff;
 }
 
@@ -274,7 +274,7 @@ main{
 }
 
 .div-tab{
-    width: 900px;
+    width: 1000px;
     height: 350px;
 }
 
