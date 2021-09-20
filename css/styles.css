@@ -322,3 +322,49 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+/* Formulario */
+.div-formulario{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-formulario div{
+    text-align: center;
+}
+
+.div-formulario form{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-formulario form table{
+    width: 900px;
+    height: 500px;
+}
+
+.div-formulario form table tr td{
+    height: 100px;
+    text-align: center;
+}
+
+.div-formulario form table tr td input{
+    width: 300px;
+    height: 30px;
+}
+
+.div-formulario form table tr td select{
+    width: 300px;
+    height: 30px;
+}
+
+.div-formulario form table tr td textarea{
+    width: 80%;
+    height: 95px;
+    padding: 0px;
+}
