@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #707070;
+}
+.contenido{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo{
+    
+    width: 120%;
+    height: 120%;
+    background-image: url("../media/img_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    animation: movani 10s linear infinite;
+    position: fixed;
+    overflow: hidden;
+}
+@keyframes movani{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(4px,3px);
+    }
+    50%{
+        transform: translate(0px,7px);
+    }
+    75%{
+        transform: translate(-5px,3px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+.menu_float_left{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+}
+.menu_float_left li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.integrantes_center{
+    position: relative;
+    top: -20%;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+.logo_float_derecha{
+    width: 5%;
+    position: absolute;
+    right: 0;
+    top:2%;
+    
+    
+    
+}
+
+.logo_float_derecha img{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.texto_vertical{
+    position: relative;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 1em;
+    left:50%;
+    transform: translate(-135%,0);
+    font-size: 1.5em;
+
+}
+
+.musica{
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    
+}
+
+.menu_float_left hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 7%;
+    top:15%;
+    
+}
+
+
+/*tecnologias*/
+
+.div-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    
+
+}
+
+.div-video video{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*background: rgba(255, 255, 255, 0.7);*/
+    background: rgba(0, 0, 0, 0.4);
+    
+}
+
+.menu_float_left_tecnologia{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+}
+
+.menu_float_left_tecnologia li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.menu_float_left_tecnologia hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 7%;
+    top:34.5%; 
+}
+
+
+
+
+
+
