@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+<<<<<<< HEAD
 body{
     margin: 0px;
     font-family: 'Raleway', sans-serif;
@@ -9,10 +10,39 @@ body{
     width: 100vw;
     height: 100vh;
     display:flex;
+=======
+/* Sección de contacto */
+
+.div-contacto{
+    width: 100%;
+    height: 40px;
+    background-color: #E5E5E5;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+.div-contacto ul{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.div-contacto ul li{
+    display: flex;
+    width: 20%;
+    height: 40px;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
     align-items: center;
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .fondo{
     
     width: 120%;
@@ -23,6 +53,19 @@ body{
     background-attachment: scroll;
     background-repeat: no-repeat;
     animation: movani 10s linear infinite;
+=======
+.div-contacto ul li img{
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Header */
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
     position: fixed;
     overflow: hidden;
 }
@@ -52,8 +95,16 @@ body{
     top: 50vh;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     transform: translate(0,-50%);
     
+=======
+    background-color: #ffffff;
+}
+
+.div-logo a img{
+    height: 50px;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 }
 .menu_float_left li{
     list-style: none;
@@ -65,7 +116,15 @@ body{
     top: -20%;
     
     justify-content: center;
+<<<<<<< HEAD
     text-align: center;
+=======
+    margin-bottom: 40px;
+    background-image: url("../img/banner-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 }
 
 .logo_float_derecha{
@@ -104,12 +163,22 @@ body{
     
 }
 
+<<<<<<< HEAD
 .menu_float_left hr{
     position: absolute;
     padding-left: 10%;
     left: 7%;
     top:15%;
     
+=======
+/* Main */
+
+main{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 }
 
 
@@ -120,17 +189,77 @@ body{
     top: 0;
     left: 0;
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;
     overflow: hidden;
     z-index: -1;
     
+=======
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.div-nosotros{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.div-nosotros-img{
+    width: 400px;
+    height: 500px;   
+    overflow: hidden;
+}
+
+.div-nosotros-img div{
+    width: 400px;
+    height: 500px;  
+    background-image: url("../img/fotografo.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: transform 1s;
+}
+
+.div-nosotros-img div:hover{
+    transform: scale(1.3);
+}
+
+.div-nosotros-txt{
+    display: flex;
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-nosotros-txt ul{
+    padding: 0px;
+    list-style: none;
+}
+
+.div-nosotros-txt ul{
+    margin: 40px;
+}
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 
 }
 
+<<<<<<< HEAD
 .div-video video{
     min-width: 100%;
     min-height: 100%;
     
+=======
+/* Seccion Materias */
+
+
+.section-materias{
+    width: 100%;
+    margin-bottom: 40px;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 }
 
 .overlay{
@@ -154,20 +283,129 @@ body{
     
 }
 
+<<<<<<< HEAD
 .menu_float_left_tecnologia li{
+=======
+.section-materias .div-materias ul{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
     list-style: none;
     padding-left: 1em;
 }
 
+<<<<<<< HEAD
 .menu_float_left_tecnologia hr{
     position: absolute;
     padding-left: 10%;
     left: 7%;
     top:34.5%; 
+=======
+.section-materias .div-materias ul li{
+    width: 18%;
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.section-materias .div-materias ul li h2{
+    margin: 0px;
+    padding: 0px;
+    color: #FFCB00;
+}
+
+.section-materias .div-materias ul li p{
+    color: #ffffff;
+}
+
+/* Tab Interactiva */
+
+.section-tab{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.div-tab{
+    width: 1000px;
+    height: 350px;
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 }
 
 
 
 
+<<<<<<< HEAD
+=======
+.div-tab-contenido{
+    display: none;
+    background-color: #ffffff;
+}
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
 
 
+<<<<<<< HEAD
+=======
+.div-tab-txt{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Formulario */
+.div-formulario{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-formulario div{
+    text-align: center;
+}
+
+.div-formulario form{
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-formulario form table{
+    width: 900px;
+    height: 500px;
+}
+
+.div-formulario form table tr td{
+    height: 100px;
+    text-align: center;
+}
+
+.div-formulario form table tr td input{
+    width: 300px;
+    height: 30px;
+}
+
+.div-formulario form table tr td select{
+    width: 300px;
+    height: 30px;
+}
+
+.div-formulario form table tr td textarea{
+    width: 80%;
+    height: 95px;
+    padding: 0px;
+}
+>>>>>>> b93303f726f9de16e63478938e8357ad3bbf30c3
