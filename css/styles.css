@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #707070;
+}
+
+a{
+text-decoration: none;
+}
+
+a:visited {
+    color: #00FF00; /* verde */
+}
+
+a:hover{
+    color: rgb(64, 175, 219);
+}
+
+.contenido{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo{
+    
+    width: 105%;
+    height: 105%;
+    background-image: url("../media/img_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    animation: movani 9s linear infinite;
+    position: fixed;
+    overflow: hidden;
+}
+@keyframes movani{
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(4px,3px);
+    }
+    50%{
+        transform: translate(0px,7px);
+    }
+    75%{
+        transform: translate(-5px,3px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+.menu_float_left{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+    
+}
+.menu_float_left li{
+    list-style: none;
+    padding-left: 1em;
+
+}
+
+.integrantes_center{
+    position: relative;
+    top: -20%;
+    
+    justify-content: center;
+    text-align: center;
+}
+
+.logo_float_derecha{
+    width: 5%;
+    position: absolute;
+    right: 0;
+    top:2%;
+    
+    
+    
+}
+
+.logo_float_derecha img{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,0);
+}
+
+.texto_vertical{
+    position: relative;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin: 1em;
+    left:50%;
+    transform: translate(-135%,0);
+    font-size: 1.5em;
+
+}
+
+.musica{
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    
+}
+
+.menu_float_left hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 14%;
+    top:14%;
+    
+}
+
+
+/*
+ *
+ *
+ tecnologias
+ *
+ *
+ */
+
+ .body_tec{
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+}
+.div-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.div-video video{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*background: rgba(255, 255, 255, 0.7);*/
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.menu_float_left_tecnologia{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+}
+
+.menu_float_left_tecnologia li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.menu_float_left_tecnologia hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 14%;
+    top:29.5%; 
+}
+.contenido_tec{
+    
+    /*background-color: lightcoral;*/
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    
+    
+}
+
+.aferrado{
+    /*background-color: black;*/
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    
+    display: block;
+    z-index: 0;
+}
+
+.logos{
+
+    /*background-color: green;*/
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 50vw;
+    flex-wrap: wrap;
+}
+
+.logos div{
+    padding: 2%;
+}
+
+.logos img{
+    max-width: 6vw;
+}
+
+/*
+ *
+ *
+ Proyectos
+ *
+ *
+ */
+
+ .menu_float_left_proyectos{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+}
+
+.menu_float_left_proyectos li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.menu_float_left_proyectos hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 14%;
+    top:44.5%;
+}
+
+.fondo_pro{
+    
+    width: 105%;
+    height: 105%;
+    background-image: url("../media/img_2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    animation: movani 9s linear infinite;
+    position: fixed;
+    overflow: hidden;
+}
+
+.contenido_pro{
+    
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    z-index: 0;
+    
+}
+
+/*
+ *
+ *
+ Acerca de nosotros
+ *
+ *
+ */
+
+ .menu_float_left_acerca_de_nosotros{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+}
+
+.menu_float_left_acerca_de_nosotros li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.menu_float_left_acerca_de_nosotros hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 14%;
+    top:59.5%;
+}
+
+.fondo_adn{
+    
+    width: 105%;
+    height: 105%;
+    background-image: url("../media/img_5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    animation: movani_2 9s linear infinite;
+    position: fixed;
+    overflow: hidden;
+}
+
+.contenido_adn{
+    
+    
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    z-index: 0;
+    
+}
+
+@keyframes movani_2{
+    0%{
+        transform: translate(0px,0px);
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: translate(4px,3px);
+        transform: rotate(0.5deg);
+
+    }
+    50%{
+        transform: translate(0px,7px);
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: translate(-5px,3px);
+        transform: rotate(-0.5deg);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+.adm{
+    /*background-color: yellow;*/
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+.div-img {
+    display: flex;
+    overflow: hidden;
+    /*height: 60vh;*/
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.div-img div{
+    background-color: rgb(0, 83, 18);
+    align-content: center;
+    background-image: url("../media/img_4.jpg");
+    height: 60vh;
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.div-img div:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+.div-inf{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh;
+    width: 60vw;
+    
+}
+
+.div-inf div{
+    /*background-color: blue;*/
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.div-inf p{
+    /*background-color: chartreuse;*/
+    width: 70%;
+    font-size: 1.5em;
+}
+
+
+/*
+ *
+ *
+Contacto
+ *
+ *
+ */
+
+ .menu_float_left_con{
+    width: auto;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,-50%);
+    
+}
+
+.menu_float_left_con li{
+    list-style: none;
+    padding-left: 1em;
+}
+
+.menu_float_left_con hr{
+    position: absolute;
+    padding-left: 10%;
+    left: 14%;
+    top:74%;
+}
+
+.fondo_con{
+    width: 105%;
+    height: 105%;
+    background-image: url("../media/img_3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    animation: movani 9s linear infinite;
+    position: fixed;
+    overflow: hidden;
+}
+
+.contenido_con{
+    
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    z-index: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
